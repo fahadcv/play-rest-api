@@ -36,6 +36,10 @@ libraryDependencies += "net.jodah" % "failsafe" % "1.0.3"
 libraryDependencies += "io.gatling.highcharts" % "gatling-charts-highcharts" % "2.3.0" % Test
 libraryDependencies += "io.gatling" % "gatling-test-framework" % "2.3.0" % Test
 
+libraryDependencies += "com.typesafe.play" %% "play-mailer" % "6.0.1"
+libraryDependencies += "com.typesafe.play" %% "play-mailer-guice" % "6.0.1"
+
+
 PlayKeys.externalizeResources := false
 
 testOptions in Test := Seq(Tests.Argument(TestFrameworks.JUnit, "-a", "-v"))

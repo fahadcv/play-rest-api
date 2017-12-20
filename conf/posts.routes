@@ -1,6 +1,8 @@
+POST    /upload                v1.post.PostController.upload()
 
 GET    /                     v1.post.PostController.list
 POST   /                     v1.post.PostController.create
 
 GET    /:id                 v1.post.PostController.show(id)
 POST    /:id                v1.post.PostController.update(id)
+
